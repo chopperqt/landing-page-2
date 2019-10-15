@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.119bd41b.chunk.css",
+    "main.js": "/static/js/main.cecf327d.chunk.js",
+    "main.js.map": "/static/js/main.cecf327d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.fde79815.js",
+    "runtime-main.js.map": "/static/js/runtime-main.fde79815.js.map",
+    "static/js/2.3a500b53.chunk.js": "/static/js/2.3a500b53.chunk.js",
+    "static/js/2.3a500b53.chunk.js.map": "/static/js/2.3a500b53.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.4a2616a4e43e6c9db34c710e832c6b8e.js": "/precache-manifest.4a2616a4e43e6c9db34c710e832c6b8e.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.119bd41b.chunk.css.map": "/static/css/main.119bd41b.chunk.css.map",
+    "static/media/App.css": "/static/media/SegoeRegular.fc15cc81.ttf",
+    "static/media/cart.png": "/static/media/cart.aec97d04.png",
+    "static/media/style.css": "/static/media/dsfsdfsdfds@3x.eeb911b6.png",
+    "static/media/iphone.png": "/static/media/iphone.c146354e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fde79815.js",
+    "static/js/2.3a500b53.chunk.js",
+    "static/css/main.119bd41b.chunk.css",
+    "static/js/main.cecf327d.chunk.js"
+  ]
+}
