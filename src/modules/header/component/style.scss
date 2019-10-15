@@ -1,0 +1,50 @@
+$SegoeRegular: "Segoe Regular", serif;
+$SegoeLight: "Segoe Light", serif;
+
+header {
+  max-width: 1250px;
+  min-width: 1250px;
+  height: 90px;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .menu {
+      .menu__ul {
+        display: flex;
+        .menu__ul_li {
+          list-style: none;
+          padding: 30px 0;
+          margin: 0 15px;
+          border-bottom: 2px solid transparent;
+          transition: .2s ease-out;
+          &:hover {
+            transition: .2s ease-in;
+            border-bottom: 2px solid #5094f2;
+          }
+          a {
+            text-decoration: none;
+            font-size: 20.5px;
+            color: #6c6c6c;
+            font-family: $SegoeRegular;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 0) and (max-width: 650px) {
+  header {
+    min-width: 100%;
+    max-width: 100%;
+    .container {
+      justify-content: center;
+      .menu {
+        display: none;
+      }
+    }
+  }
+}

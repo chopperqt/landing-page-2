@@ -1,0 +1,65 @@
+.offers {
+  height: 400px;
+  display: grid;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .offers .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; }
+    .offers .container .offers__item {
+      display: grid;
+      justify-items: center;
+      text-align: center; }
+      .offers .container .offers__item .circle {
+        width: 186px;
+        height: 186px;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        display: grid;
+        justify-items: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -moz-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-transition: .4s ease-out;
+        -o-transition: .4s ease-out;
+        -moz-transition: .4s ease-out;
+        transition: .4s ease-out;
+        -webkit-transform: rotate3d(0, 1, 0, 0deg);
+        -moz-transform: rotate3d(0, 1, 0, 0deg);
+        transform: rotate3d(0, 1, 0, 0deg); }
+        .offers .container .offers__item .circle:hover {
+          -webkit-transition: .4s ease-in;
+          -o-transition: .4s ease-in;
+          -moz-transition: .4s ease-in;
+          transition: .4s ease-in;
+          -webkit-transform: rotate3d(0, 1, 0, 180deg);
+          -moz-transform: rotate3d(0, 1, 0, 180deg);
+          transform: rotate3d(0, 1, 0, 180deg); }
+      .offers .container .offers__item .circle_blue {
+        background: #5094f2; }
+      .offers .container .offers__item .circle_red {
+        background: #d94748; }
+      .offers .container .offers__item .circle_yellow {
+        background: #ebbb11; }
+      .offers .container .offers__item h5 {
+        margin-top: 28px; }
+      .offers .container .offers__item p {
+        font-family: "Segoe Regular", serif;
+        padding: 0 25px; }
+
+@media screen and (min-width: 0) and (max-width: 650px) {
+  .offers {
+    height: auto;
+    padding: 15px 0; }
+    .offers .container {
+      grid-template-columns: 1fr; }
+      .offers .container .offers__item .circle_red {
+        margin-top: 20px; }
+      .offers .container .offers__item .circle_yellow {
+        margin-top: 20px; } }

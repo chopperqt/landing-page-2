@@ -1,0 +1,8 @@
+## Interface: 60200
+## Title: Diminish
+## Notes: Diminishing returns tracker for arenas.
+## Dependencies: Blizzard_ArenaUI
+## Author: Wardz
+## Version: 1.1
+Spells.lua
+Diminish.lua

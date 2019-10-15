@@ -1,0 +1,65 @@
+$SegoeRegular: "Segoe Regular", serif;
+$SegoeLight: "Segoe Light", serif;
+
+
+.offers {
+  height: 400px;
+  display: grid;
+  align-items: center;
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    .offers__item {
+      display: grid;
+      justify-items: center;
+      text-align: center;
+      .circle {
+        width: 186px;
+        height: 186px;
+        border-radius: 50%;
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        transition: .4s ease-out;
+        transform: rotate3d(0,1,0,0deg);
+        &:hover {
+          transition: .4s ease-in;
+          transform: rotate3d(0,1,0,180deg);
+        }
+      }
+      .circle_blue {
+        background: #5094f2;
+      }
+      .circle_red {
+        background: #d94748;
+      }
+      .circle_yellow {
+        background: #ebbb11;
+      }
+      h5 {
+        margin-top: 28px;
+      }
+      p {
+        font-family: $SegoeRegular;
+        padding: 0 25px;
+      }
+    }
+  }
+}
+@media screen and (min-width: 0) and (max-width: 650px) {
+  .offers {
+    height: auto;
+    padding: 15px 0;
+    .container {
+      grid-template-columns: 1fr;
+      .offers__item {
+        .circle_red {
+          margin-top: 20px;
+        }
+        .circle_yellow {
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+}
