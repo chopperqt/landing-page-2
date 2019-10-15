@@ -9,7 +9,6 @@ $SegoeLight: "Segoe Light", serif;
   .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: "img cart";
     .offers__item {
       display: grid;
       justify-items: center;
