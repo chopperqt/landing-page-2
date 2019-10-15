@@ -2,7 +2,7 @@
   "name": "landing-page-2",
   "version": "0.1.0",
   "private": true,
-  "homepage": "landing-page-2",
+  "homepage": "/landing-page-2",
   "dependencies": {
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
